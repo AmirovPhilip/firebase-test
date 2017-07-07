@@ -1,0 +1,236 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: #fff;
+  font-size: 14px;
+}
+
+.main-light-blue {
+    background: #0277BD !important;
+}
+
+.logo{
+  margin: 5px 0 0 15px;
+  width: 60px;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.clearfix {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+input:focus:not([readonly]) {
+  border-color: #0277BD !important;
+  box-shadow: 0 1px 0 0 #0277BD;
+}
+input:focus:not([readonly]) + label {
+  color: #0277BD !important;
+}
+textarea {
+  padding: 10px;
+}
+textarea::-moz-placeholder {
+  color: #9e9e9e;
+  font-size: 16px;
+}
+textarea::-webkit-input-placeholder {
+  color: #9e9e9e;
+  font-size: 16px;
+}
+textarea:-ms-input-placeholder {
+  color: #9e9e9e;
+  font-size: 16px;
+}
+textarea:-moz-placeholder {
+  color: #9e9e9e;
+  font-size: 16px;
+}
+
+input.require {
+  border-color: #e57373 !important;
+}
+input.require + label {
+  color: #e57373 !important;
+}
+textarea.require {
+  border-color: #e57373 !important;
+}
+
+.btn {
+  color: #fff;
+  background-color: #0277BD;
+  font-size: 14px;
+  text-transform: none;
+
+  & a {
+    color: #fff;
+  }
+
+  &:hover, &:focus {
+    background-color: #0285D0;
+  }
+
+  &.default {
+    color: #026EAC;
+    background-color: transparent;
+    border: 1px solid #0277BD;
+
+    & a {
+      color: #026EAC;
+    }
+
+    &:hover, &:focus {
+      border: 1px solid #026EAC;
+      color: #026EAC;
+    }
+  }
+  &.google {
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    color: #333;
+    box-shadow: none;
+    &:hover {
+      background: #e9e9e9;
+      border-color: #999;
+      color: #000;
+    }
+    & .material-icons {
+      margin: 0;
+      font-size: 28px;
+      color: #DD4B39;
+    }
+  }
+}
+
+.modal .btn + .btn {
+  margin-right: 15px !important;
+}
+
+.article-text {
+  width: 100%;
+  border: 1px solid #9E9E9E;
+  min-height: 150px;
+  resize: none;
+}
+
+nav ul .disable a:hover {
+  background-color: transparent;
+}
+nav ul li > a {
+  padding: 0 15px;
+}
+nav ul a > a {
+  padding: 0;
+  margin: 0 -15px;
+}
+
+.content-page {
+  padding: 30px 0;
+  min-height: calc(100vh - 266px);
+
+  & h2 {
+    margin: 0 0 15px 0;
+    font-size: 28px;
+  }
+}
+
+.page-header {
+  height: 64px;
+  text-align: center;
+}
+
+.not-found-card {
+  color: #fff;
+  background: #fff;
+
+  & .card-content {
+    background: #fff !important;
+  }
+
+  & .card-action a {
+    color: #039be5 !important;
+  }
+}
+
+.login-form {
+  margin-top: 150px;
+
+  & .input-field .prefix {
+    font-size: 25px;
+    top: 10px;
+    left: 21px;
+    color: #9E9E9E;
+  }
+  & .input-field .prefix.active,
+  & .input-field .prefix.valid {
+    color: #0277BD !important;
+  }
+  & h5 {
+    text-align: center;
+    color: #0277BD;
+  }
+
+  .progress {
+    background-color: #8ED6FF;
+  }
+  .progress .indeterminate {
+    background-color: #0277BD;
+  }
+  .btn {
+    width: 100%;
+  }
+  .word-or {
+    padding: 15px 0 0 0;
+    font-size: 16px;
+    text-align: center;
+    color: #9E9E9E;
+  }
+  .sign-in-link {
+    text-align: center;
+    font-size: 14px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.app-error {
+  width: 300px;
+  position: absolute;
+  left: 0;
+  top: 90px;
+  & .close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 12px;
+    text-align: right;
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}
+
+.article-main {
+
+  & .img-wrap {
+    float: right;
+    width: 500px;
+    & img {
+      width: 100%;
+    }
+  }
+}

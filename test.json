@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "name": "Steve O",
+      "email": "filip.amirov@gmail.com",
+      "ava": "http://www.images.lesyadraw.ru/2013/06/House.jpg",
+      "admin": true,
+      "login": false
+    }
+  ]
+}
